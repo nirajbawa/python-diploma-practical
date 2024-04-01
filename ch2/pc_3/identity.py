@@ -1,6 +1,6 @@
 a = [10]
 b = a
-c = [10]
+c = [20]
 
 print(a is b)
 print(a is c)

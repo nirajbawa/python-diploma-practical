@@ -31,11 +31,15 @@ for i in l:
 print("\n\ndeleting elements of list : \n\n")
 print(l.pop(1))
 print(l.pop())
-print("list : ", l)
+
+# remove list elements
+print("\n\nremove list elements : \n", l)
 l.remove("niraj")
+print(l)
+
 
 # updating list 
-
+print("\nupdating list\n")
 l.append("realme")
 l.append("apple")
 l.append("samsung")
