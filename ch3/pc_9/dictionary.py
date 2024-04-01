@@ -28,6 +28,7 @@ print(d)
 
 print(d.pop('class'))
 print(d.popitem())
+print(d)
 
 del d
 try:

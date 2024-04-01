@@ -1,0 +1,2 @@
+def myFuc():
+    print("hii")

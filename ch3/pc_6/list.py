@@ -44,4 +44,5 @@ l.append("realme")
 l.append("apple")
 l.append("samsung")
 l[2] = "oppo"
+del l[0]
 print(l)

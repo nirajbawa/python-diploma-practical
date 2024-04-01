@@ -15,7 +15,7 @@ print(2 in t2)
 print(2 not in t2)
 
 
-# repetaiton
+# repetition
 print("\n\nrepetaiton : \n\n")
 t4 = t1*2
 print(t4)

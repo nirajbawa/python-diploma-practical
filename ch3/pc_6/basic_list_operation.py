@@ -25,4 +25,4 @@ print(5 not in l4)
 
 # list slice
 print("\n\list slice : \n\n")
-print(l4[0:5]) #this function works s to n-1
+print(l1[0:2]) #this function works s to n-1

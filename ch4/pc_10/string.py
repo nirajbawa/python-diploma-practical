@@ -1,6 +1,6 @@
 name = "   niraj hello niraj "
 
-print(name.capitalize())
+print(name.strip().capitalize())
 print(name.lower())
 print(name.upper())
 
@@ -26,3 +26,5 @@ print(name.count("niraj"))
 print(name.center(200))
 
 print(name.rstrip())
+
+print(",".join(name.split()))
