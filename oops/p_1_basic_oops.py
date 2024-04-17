@@ -9,6 +9,7 @@ p1.name = "niraj"
 p1.lname = "bava"
 p1.printVal()
 
+
 p2 = Person()
 p2.name = "ram"
 p2.lname = "gosavi"
