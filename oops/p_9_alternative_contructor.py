@@ -8,6 +8,6 @@ class Person:
 
 # p = Person("niraj", 50000)
 p = Person.fromStr("niraj-50000")
-print(dir(p))
-print(p.__dict__)
-print(help(p))
+# print(dir(p))
+# print(p.__dict__)
+# print(help(p))

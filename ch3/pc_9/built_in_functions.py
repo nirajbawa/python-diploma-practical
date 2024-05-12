@@ -18,3 +18,5 @@ val = 3
 
 d3 = dict.fromkeys(l, val)
 print(d3)
+
+

@@ -15,7 +15,7 @@ print(name.split(" "))
 
 print(name.strip())
 
-print(name.find("niraj"))
+print(fora.find("mat"))
 
 print(name.rfind("niraj"))
 

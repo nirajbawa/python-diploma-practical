@@ -1,5 +1,7 @@
 class Person:
     name = ""
+    def pritnVals(self):
+        print("hello")
     
 class Developer(Person):
     specailize = ""
@@ -10,6 +12,7 @@ class Developer(Person):
     def printVals(self):
         print(self.name)
         print(self.specailize)
+        Person.pritnVals(self)
 
 o = Developer()
 o.setVals("niraj", "sde")

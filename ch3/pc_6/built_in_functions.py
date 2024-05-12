@@ -35,7 +35,7 @@ print(l1.index(5))
 
 # insert
 print("\n\ninsert : \n\n")
-l1.insert(9,20)
+l1.insert(8,20)
 print(l1)
 
 

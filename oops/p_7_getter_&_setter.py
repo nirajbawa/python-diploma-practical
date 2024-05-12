@@ -1,17 +1,17 @@
 class MyClass:
     def __init__(self, value) -> None:
-        self._value = value
+        self.__value = value
     
     def show(self):
-        print("value : ", self._value)
+        print("value : ", self.__value)
     
     @property
     def ten_val(self):
-        return self._value
+        return self.__value
     
     @ten_val.setter
     def ten_val(self, value):
-        self._value = value
+        self.__value = value
     
 
 m = MyClass(10)
